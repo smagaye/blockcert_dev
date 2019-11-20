@@ -33,3 +33,107 @@ blockcerts testnet bitcoin address.txt
 docs/_build/*
 site/*
 priv*.txt
+# Journaux
+les journaux
+* .log
+npm-debug.log *
+yarn-debug.log *
+yarn-error.log *
+lerna-debug.log *
+
+# Rapports de diagnostic (https://nodejs.org/api/report.html)
+rapport. [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * .json
+
+# Données d'exécution
+pids
+* .pid
+* graines
+* .pid.lock
+
+# Répertoire pour les bibliothèques instrumentées générées par jscoverage / JSCover
+lib-cov
+
+# Répertoire de couverture utilisé par des outils comme istanbul
+couverture
+* .lcov
+
+couverture de test # new york
+.nyc_output
+
+# Stockage intermédiaire Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grognement
+
+# Répertoire de dépendance Bower (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Addons binaires compilés (https://nodejs.org/api/addons.html)
+construire / libérer
+
+# Répertoires de dépendances
+node_modules /
+jspm_packages /
+
+# Fichiers de déclaration TypeScript v1
+tapages /
+
+# Cache TypeScript
+* .tsbuildinfo
+
+# Répertoire de cache npm facultatif
+.npm
+
+# Cache eslint facultative
+.eslintcache
+
+# Cache de microbundle
+.rpt2_cache /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Historique optionnel REPL
+.node_repl_history
+
+# Sortie de 'npm pack'
+* .tgz
+
+# Fichier Fils d' intégrité
+intégrité du fil
+
+Fichier de variables d'environnement # dotenv
+.env
+.env.test
+
+# cache de paquet-bundler (https://parceljs.org/)
+.cache
+
+# Next.js construit la sortie
+.suivant
+
+# Nuxt.js construire / générer la sortie
+.nuxt
+dist
+
+# Fichiers Gatsby
+.cache /
+# Commentaire dans la ligne publique si votre projet utilise Gatsby et * pas * Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# vuepress build sortie
+.vuepress / dist
+
+# Répertoires sans serveur
+.serverless /
+
+# Cache FuseBox
+.fusebox /
+
+# DynamoDB fichiers locaux
+.dynamodb /
+
+# Fichier de port TernJS
+.tern-port
