@@ -73,7 +73,7 @@ bower_components
 construire / libérer
 
 # Répertoires de dépendances
-node_modules /
+blockcerts-verifier/node_modules /
 jspm_packages /
 
 # Fichiers de déclaration TypeScript v1
